@@ -1,0 +1,48 @@
+{
+    "cert_index": 1904958911,
+    "cert_link": "https://ct.googleapis.com/logs/xenon2023/ct/v1/get-entries?start=1904958911&end=1904958911",
+    "leaf_cert": {
+        "all_domains": [
+            "blackdogstore.com.pe"
+        ],
+        "extensions": {
+            "authorityInfoAccess": "CA Issuers - URI:http://r3.i.lencr.org/\nOCSP - URI:http://r3.o.lencr.org\n",
+            "authorityKeyIdentifier": "keyid:14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6\n",
+            "basicConstraints": "CA:FALSE",
+            "certificatePolicies": "Policy: 2.23.140.1.2.1",
+            "ctlSignedCertificateTimestamp": "BIHxAO8AdgB6MoxU2LcttiDqOOBSHumEFnAyE4VNO9IrwTpXo1LrUgAAAYp0Dqr0AAAEAwBHMEUCICtSwf2YQYbc5H18pqZa3O_vwZDQJgUeZDwDj5nlH2txAiEAg6eYMR5AoA-RpTy365wZR1fi7L4AwWXhPrdZj6tut_oAdQDoPtDaPvUGNTLnVyi8iWvJA9PL0RFr7Otp4Xd9bQa9bgAAAYp0DqrIAAAEAwBGMEQCIFFVU5pO11zP99OOaoDb0WK09_RBrlh8i1xcm_lkSSeEAiB1630aiJ4LZ8OqulVuA5fzQqVdCXWPltaFNl5YuCa5pw==",
+            "extendedKeyUsage": "TLS Web server authentication, TLS Web client authentication",
+            "keyUsage": "Digital Signature, Key Encipherment",
+            "subjectAltName": "DNS:blackdogstore.com.pe",
+            "subjectKeyIdentifier": "43:4F:91:69:3B:3C:F0:55:C7:0B:BE:A4:C7:FA:71:6D:C6:15:64:33"
+        },
+        "fingerprint": "11:1A:B0:AD:83:16:FB:DA:AA:7C:CE:52:9E:8B:0B:39:B6:E9:72:11",
+        "issuer": {
+            "C": "US",
+            "CN": "R3",
+            "L": None,
+            "O": "Let"s Encrypt", "OU": None, "ST": None, "aggregated": "/C=US/CN=R3/O=Let"s Encrypt",
+            "emailAddress": None
+        },
+        "not_after": 1701936631,
+        "not_before": 1694160632,
+        "serial_number": "3E73193F0E0AAE3A0DF86AB127406FBD088",
+        "signature_algorithm": "sha256, rsa",
+        "subject": {
+            "C": None,
+            "CN": "blackdogstore.com.pe",
+            "L": None,
+            "O": None,
+            "OU": None,
+            "ST": None,
+            "aggregated": "/CN=blackdogstore.com.pe",
+            "emailAddress": None
+        }
+    },
+    "seen": 1694164314.469491,
+    "source": {
+        "name": "Google "Xenon2023" log",
+        "url": "https://ct.googleapis.com/logs/xenon2023/"
+    },
+    "update_type": "X509LogEntry"
+}
