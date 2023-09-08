@@ -1,14 +1,16 @@
 import requests
 
 certCount = 0
+i = -1
 baseUrl = "https://crt.sh/?d="
 
-while certCount < 1_000_000 :
-    url = baseUrl + str(certCount)
+while i < 1_000_000 :
+    i += 1
+    url = baseUrl + str(i)
     response = requests.get(url)
     
     if response.status_code != 200 :
-        print("SKIPPING nb" + str(certCount))
+        print("SKIPPING nb" + str(i))
         continue
     
     print("Creating certificate nb" + str(certCount))
