@@ -46,7 +46,7 @@ else:
 print("quick sort finish")
 
 # copy order in a txt
-f = open("sorted_order.txt", 'w')
+f = open("sorted_order_v2.txt", 'w')
 
 cpt_copy = 0
 
@@ -58,6 +58,3 @@ for filename, key_length in sorted_certs:  # certs:
     f.write(filename + ", " + str(key_length) + "\n")
 
     cpt_copy += 1
-
-    if cpt_copy % 5000 == 0:
-        print("insert number : ", cpt_copy)
