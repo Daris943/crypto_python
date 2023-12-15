@@ -18,7 +18,7 @@ def delete_files_in_directory(directory_path):
         print("Error occurred while deleting files.")
 
 
-delete_files_in_directory(_target_folder)
+# delete_files_in_directory(_target_folder)
 
 for path in os.listdir(_source_folder):
     # check if current path is a file

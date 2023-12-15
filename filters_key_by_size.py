@@ -25,25 +25,16 @@ for file_name in files:
 print("--------------")
 print("finish to load certificates")
 
+
 # apply a bubble sort algo
 n = len(certs)
 for i in range(n):
     for j in range(0, n - i - 1):
         if certs[j][1] > certs[j + 1][1]:
             certs[j], certs[j + 1] = certs[j + 1], certs[j]
-    if i % 1000 == 0:
-        print("tri : ", i)
+
 print("end of the bubble sort")
 
-# apply a quick sort
-if len(certs) <= 1:
-    pass
-else:
-    pivot = certs[0]
-    less = [cert for cert in certs[1:] if cert[1] <= pivot[1]]
-    greater = [cert for cert in certs[1:] if cert[1] > pivot[1]]
-    sorted_certs = less + [pivot] + greater
-print("quick sort finish")
 
 # copy order in a txt
 f = open("sorted_order_v2.txt", 'w')
